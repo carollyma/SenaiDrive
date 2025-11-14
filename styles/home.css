@@ -1,8 +1,65 @@
 .cabecalho {
-    background-image: url("../assets/imgs/hq720\ \(2\).jpg");
+    background-image: url("../assets/imgs/Banner\ Home.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
-    
+    color: #fff;
+}
+
+.secao-banner {
+    text-align: center;
+    padding: 200px 0;
+}
+
+.secao-banner h1, h2 {
+    font-size: 2.8rem;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+.secao-banner h2 {
+    margin-bottom: 80px;
+}
+
+.destaque-amarelo {
+    color: #ffc857;
+    font-weight: bold;
+}
+
+.botao-amarelo {
+    background-color: #ffc857;
+    color: #0a2239;
+    padding: 1% 5%;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.secao-vantagem {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50vh;
+}
+
+.item-vantagem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    max-width: 20%;
+}
+
+.icone-vantagem {
+    width: 20%;
+}
+
+.item-vantagem h3 {
+    font-size: 1.4rem;
+}
+
+.item-vantagem p {
+    max-width: 85%;
 }
