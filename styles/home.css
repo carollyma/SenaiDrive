@@ -173,3 +173,114 @@
     background-color: #0a2239;
     color: #fff;
 }
+
+.secao-mais-buscados {
+    display: flex;
+    flex-direction: column;
+    padding: 5% 10%;
+}
+
+.secao-mais-buscados h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+select {
+    padding: 0.8% 4%;
+    border-radius: 15px;
+    border: #D6D6D6 1px solid;
+    align-self: flex-end;
+    font-weight: 600;
+    font-size: 1em;
+    cursor: pointer;   
+}
+
+option {
+    color: #535353;
+}
+
+
+.categoria-carro h3 {
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+
+.container-cards-carros {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; 
+    flex-wrap: wrap;
+}
+
+.card-carro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    padding: 20px;
+    max-width: 30%;
+
+    border-radius: 15px;
+    border: 1px solid #E3DCDC;
+    box-shadow: 4px 4px 20px rgba(0,0,0,0.25);
+}
+
+.card-carro img {
+    max-width: 80%;
+}
+
+.card-carro h3 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    color: #2B858B; 
+}
+
+.tipo-carro {
+    font-size: 0.9rem;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.preco-info {
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #535353;
+}
+
+.preco-valor { 
+    font-size: 1rem;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.botao-verdeagua { 
+    background-color: #2B858B;
+    color: #ffffff;
+    padding: 10px 40px;
+    border-radius: 15px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.botao-verdeagua:hover {
+    background-color: #006666;
+}
+
+.link-ver-mais { 
+    display: block;
+    text-align: right;
+    margin-top: 30px;
+    color: #2B858B; 
+    font-weight: bold;
+}
+
+.link-ver-mais:hover {
+    text-decoration: underline;
+}
