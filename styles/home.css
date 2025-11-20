@@ -284,3 +284,104 @@ option {
 .link-ver-mais:hover {
     text-decoration: underline;
 }
+
+.carrossel {
+    padding: 30px 0;
+    width: 100%;
+    background-color: #f7f7f7;
+}
+
+.slideshow-container {
+    width: 100%;
+    position: relative;
+    margin: 0;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.meuSlide {
+    display: none;
+    text-align: center;
+}
+
+.meuSlide img {
+    vertical-align: middle;
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: contain;
+    margin: 0 auto;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s;
+    border-radius: 0 3px 3px 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.texto-slide {
+    color: #f2f2f2;
+    font-size: 18px;
+    padding: 8px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(43, 133, 139, 0.8);
+    font-weight: bold;
+}
+
+.numero-slide {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s;
+}
+
+.active, .dot:hover {
+    background-color: #2B858B;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4;
+    }
+    to {
+        opacity: 1;
+    }
+}
